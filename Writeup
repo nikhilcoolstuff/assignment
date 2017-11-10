@@ -1,0 +1,12 @@
+My thoughts on building this as a full scale application :-
+
+To build this project as a full scale application on the web or native mobile, I would create a list view and add/append the results fetched from the API into a datasource array so they are cached.
+This data source array would serve as the data source for the list view. I would auto load more data as the user scrolls to the end of the list with some offset so the
+next page loads soon enough as the user is about to reach the end of that page. I would add a spinner to the end of the list view so when the data is loading, the spinner shows that
+the fetch is underway and gets hidden when that page loading is complete.
+
+I would also start with test driven development, i.e. write tests first and then build the functionality. The tests would include testing the following -
+1) Testing API params are formed correctly.
+2) Testing that API is successful.
+3) Testing UI is formed correctly with proper layout and constraints.
+4) Any other test cases.
