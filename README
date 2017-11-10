@@ -5,8 +5,13 @@ Install the below node dependencies before running the project.
 2) prompt -  npm install prompt
 3) console.table - npm install console.table
 
-Run the Project -
+Run the Program -
 node FoodTruckFinder.js
 
-All in one Command -
+All in one Command to install dependencies and run project -
 npm install --save request prompt console.table && node FoodTruckFinder.js
+
+
+Instructions -
+Upon running the project, you will see a list of food trucks open on current local time in sets of 10 followed by a prompt to continue loading more results.
+Press any key to continue loading more results or press X to exit the program.
