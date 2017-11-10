@@ -1,0 +1,12 @@
+/// READ ME ///
+
+Install the below node dependencies before running the project.
+1) Request - npm install request
+2) prompt -  npm install prompt
+3) console.table - npm install console.table
+
+Run the Project -
+node FoodTruckFinder.js
+
+All in one Command -
+npm install --save request prompt console.table && node FoodTruckFinder.js
