@@ -24,7 +24,7 @@ function callFoodTruckApi(currentPage) {
       prompt.get(properties, function (err, result) {
         if (err) { return onErr(err); }
         if (result.continueKey.toUpperCase() == 'X') {
-          console.log('Program aborted');
+          console.log('Program ended');
         } else {
           callFoodTruckApi(++currentPage);
         }
